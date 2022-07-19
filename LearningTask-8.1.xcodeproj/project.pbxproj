@@ -11,6 +11,10 @@
 		58123EDB2857A3FA00114CE5 /* MovieViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58123EDA2857A3FA00114CE5 /* MovieViewCell.swift */; };
 		58123EDD2857A43700114CE5 /* MovieSectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58123EDC2857A43600114CE5 /* MovieSectionHeaderView.swift */; };
 		58123EDF2857C6C000114CE5 /* MoviesAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58123EDE2857C6C000114CE5 /* MoviesAPI.swift */; };
+		587D9E1D2886D780005F9CA8 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 587D9E1C2886D780005F9CA8 /* Theme.swift */; };
+		587D9E212886E2BE005F9CA8 /* PurchaseSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 587D9E202886E2BE005F9CA8 /* PurchaseSettingsViewController.swift */; };
+		587D9E232886E337005F9CA8 /* PurchaseSettingsMenuItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 587D9E222886E337005F9CA8 /* PurchaseSettingsMenuItemCell.swift */; };
+		587D9E262886E4AE005F9CA8 /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 587D9E252886E4AE005F9CA8 /* MenuItem.swift */; };
 		5881DB4E285A1FC100D4B20F /* LogoTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5881DB4D285A1FC100D4B20F /* LogoTitleView.swift */; };
 		5881DB55285A4EC800D4B20F /* MoviePosterImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5881DB54285A4EC800D4B20F /* MoviePosterImageView.swift */; };
 		5898D99D286E53E200C5B6AB /* PurchaseSettingsTableHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5898D99C286E53E200C5B6AB /* PurchaseSettingsTableHeaderView.swift */; };
@@ -36,6 +40,10 @@
 		58123EDA2857A3FA00114CE5 /* MovieViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieViewCell.swift; sourceTree = "<group>"; };
 		58123EDC2857A43600114CE5 /* MovieSectionHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieSectionHeaderView.swift; sourceTree = "<group>"; };
 		58123EDE2857C6C000114CE5 /* MoviesAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesAPI.swift; sourceTree = "<group>"; };
+		587D9E1C2886D780005F9CA8 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		587D9E202886E2BE005F9CA8 /* PurchaseSettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseSettingsViewController.swift; sourceTree = "<group>"; };
+		587D9E222886E337005F9CA8 /* PurchaseSettingsMenuItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseSettingsMenuItemCell.swift; sourceTree = "<group>"; };
+		587D9E252886E4AE005F9CA8 /* MenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItem.swift; sourceTree = "<group>"; };
 		5881DB4D285A1FC100D4B20F /* LogoTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoTitleView.swift; sourceTree = "<group>"; };
 		5881DB54285A4EC800D4B20F /* MoviePosterImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviePosterImageView.swift; sourceTree = "<group>"; };
 		5898D99C286E53E200C5B6AB /* PurchaseSettingsTableHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseSettingsTableHeaderView.swift; sourceTree = "<group>"; };
@@ -87,6 +95,33 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		587D9E1E2886E279005F9CA8 /* PurchaseSettings */ = {
+			isa = PBXGroup;
+			children = (
+				587D9E202886E2BE005F9CA8 /* PurchaseSettingsViewController.swift */,
+				587D9E242886E49E005F9CA8 /* Model */,
+				587D9E1F2886E29E005F9CA8 /* View */,
+			);
+			path = PurchaseSettings;
+			sourceTree = "<group>";
+		};
+		587D9E1F2886E29E005F9CA8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5898D99C286E53E200C5B6AB /* PurchaseSettingsTableHeaderView.swift */,
+				587D9E222886E337005F9CA8 /* PurchaseSettingsMenuItemCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		587D9E242886E49E005F9CA8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				587D9E252886E4AE005F9CA8 /* MenuItem.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		5881DB4C285A1F8200D4B20F /* Components */ = {
 			isa = PBXGroup;
 			children = (
@@ -122,7 +157,6 @@
 				58A7683F28538855007FB4D3 /* Models */,
 				58A768322853874C007FB4D3 /* View */,
 				58A7683328538750007FB4D3 /* Scenes */,
-				5898D99C286E53E200C5B6AB /* PurchaseSettingsTableHeaderView.swift */,
 			);
 			path = "LearningTask-8.1";
 			sourceTree = "<group>";
@@ -141,6 +175,7 @@
 			children = (
 				58123ED62857A35E00114CE5 /* Movies */,
 				58A76846285388F2007FB4D3 /* MovieSessions */,
+				587D9E1E2886E279005F9CA8 /* PurchaseSettings */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";
@@ -150,6 +185,7 @@
 			children = (
 				589AA1462853852D003C69BE /* AppDelegate.swift */,
 				589AA1482853852D003C69BE /* SceneDelegate.swift */,
+				587D9E1C2886D780005F9CA8 /* Theme.swift */,
 				589AA15128538533003C69BE /* LaunchScreen.storyboard */,
 				589AA15428538533003C69BE /* Info.plist */,
 			);
@@ -282,6 +318,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				587D9E262886E4AE005F9CA8 /* MenuItem.swift in Sources */,
 				5881DB55285A4EC800D4B20F /* MoviePosterImageView.swift in Sources */,
 				58A768412853886F007FB4D3 /* Movie.swift in Sources */,
 				589AA1472853852D003C69BE /* AppDelegate.swift in Sources */,
@@ -295,12 +332,15 @@
 				58A7684D28538983007FB4D3 /* SessionsTableSectionHeaderView.swift in Sources */,
 				58123ED82857A3A500114CE5 /* MoviesViewController.swift in Sources */,
 				58A7683E28538843007FB4D3 /* MovieSessionsAPI.swift in Sources */,
+				587D9E212886E2BE005F9CA8 /* PurchaseSettingsViewController.swift in Sources */,
 				58123EDF2857C6C000114CE5 /* MoviesAPI.swift in Sources */,
 				58A7684828538910007FB4D3 /* MovieSessionsViewController.swift in Sources */,
 				589AA1492853852D003C69BE /* SceneDelegate.swift in Sources */,
 				5898D99D286E53E200C5B6AB /* PurchaseSettingsTableHeaderView.swift in Sources */,
+				587D9E1D2886D780005F9CA8 /* Theme.swift in Sources */,
 				58A7684F285389B8007FB4D3 /* SessionViewCell.swift in Sources */,
 				58123EDB2857A3FA00114CE5 /* MovieViewCell.swift in Sources */,
+				587D9E232886E337005F9CA8 /* PurchaseSettingsMenuItemCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
